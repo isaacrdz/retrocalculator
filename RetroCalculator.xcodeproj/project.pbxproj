@@ -12,6 +12,8 @@
 		14C5D5771F38CE6B00068F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C5D5751F38CE6B00068F93 /* Main.storyboard */; };
 		14C5D5791F38CE6B00068F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C5D5781F38CE6B00068F93 /* Assets.xcassets */; };
 		14C5D57C1F38CE6B00068F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C5D57A1F38CE6B00068F93 /* LaunchScreen.storyboard */; };
+		14C5D5841F3955B200068F93 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14C5D5831F3955B200068F93 /* Minecraft.ttf */; };
+		14C5D5861F3A165B00068F93 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 14C5D5851F3A165B00068F93 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		14C5D5781F38CE6B00068F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14C5D57B1F38CE6B00068F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14C5D57D1F38CE6B00068F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C5D5831F3955B200068F93 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		14C5D5851F3A165B00068F93 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		14C5D5701F38CE6B00068F93 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				14C5D5831F3955B200068F93 /* Minecraft.ttf */,
 				14C5D5711F38CE6B00068F93 /* AppDelegate.swift */,
+				14C5D5851F3A165B00068F93 /* btn.wav */,
 				14C5D5731F38CE6B00068F93 /* ViewController.swift */,
 				14C5D5751F38CE6B00068F93 /* Main.storyboard */,
 				14C5D5781F38CE6B00068F93 /* Assets.xcassets */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					14C5D56D1F38CE6A00068F93 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GF5KK69ZR2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C5D5861F3A165B00068F93 /* btn.wav in Resources */,
 				14C5D57C1F38CE6B00068F93 /* LaunchScreen.storyboard in Resources */,
 				14C5D5791F38CE6B00068F93 /* Assets.xcassets in Resources */,
+				14C5D5841F3955B200068F93 /* Minecraft.ttf in Resources */,
 				14C5D5771F38CE6B00068F93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GF5KK69ZR2;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ninjamkt.RetroCalculator;
@@ -274,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GF5KK69ZR2;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ninjamkt.RetroCalculator;
